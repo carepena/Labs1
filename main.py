@@ -91,7 +91,7 @@ def sentiment_analysis(year: int) -> dict:
     return result
 
 
-muestra = df.head(25000)
+muestra = df.head(2000)
 tfidf = TfidfVectorizer(stop_words='english')
 muestra = muestra.fillna('')
 
